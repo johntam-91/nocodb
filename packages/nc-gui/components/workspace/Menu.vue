@@ -4,7 +4,7 @@ const isMiniSidebar = inject(IsMiniSidebarInj, undefined)
 const { appInfo } = useGlobal()
 </script>
 
-<template>
+<!--<template>
   <div v-if="isMiniSidebar" data-testid="nc-workspace-menu" class="nc-workspace-menu nc-mini-sidebar-ws-item">
     <a href="https://github.com/nocodb/nocodb" target="_blank" rel="noopener noreferrer">
       <NcTooltip :disabled="!appInfo?.version || isEeUI" placement="right" hide-on-click>
@@ -44,7 +44,7 @@ const { appInfo } = useGlobal()
       </div>
     </div>
   </div>
-</template>
+</template> -->
 
 <style scoped lang="scss">
 .nc-workspace-menu-item {
